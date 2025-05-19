@@ -9,36 +9,6 @@ This is a Spring Boot application that integrates Spring Security with the Keycl
 
 The project utilizes Spring Boot and Spring Security to secure endpoints with Keycloak. It includes configurations to define user roles and permissions, ensuring that only authenticated users with the necessary roles can access specific parts of the application. 
 
-## Project Structure
-
-The project has the following directory structure:
-
-└── shdhumale-siddhu-springsecurity-keycloak-adaptor/
-├── README.md
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── siddhu/
-│   │   │           └── keycloak/
-│   │   │               ├── SecurityConfig.java
-│   │   │               ├── SiddhuSpringsecurityKeycloakAdaptorApplication.java
-│   │   │               └── SimpleController.java
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── siddhu/
-│                   └── keycloak/
-│                       └── SiddhuSpringsecurityKeycloakAdaptorApplicationTests.java
-└── .mvn/
-└── wrapper/
-└── maven-wrapper.properties
-
 
 ## Key Files and Components
 
